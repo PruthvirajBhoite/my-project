@@ -15,7 +15,8 @@ class ApiError extends Error{
         if(stack){
             this.stack = stack
         }else{
-            Error.captureStackTrance(this,this.constructor)
+            // Error.captureStackTrance(this,this.constructor)
+            console.log("Pruthvi")
         }
     }
 
